@@ -2,7 +2,6 @@ import React, {  useEffect } from "react";
 import NewsItem from "./NewItem";
 import { useState } from "react";
 
-
 export default function News(props) {
   const [article, setarticles] = useState([]);
   const[page,setpage] = useState(1);
